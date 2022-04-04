@@ -59,6 +59,8 @@ namespace SnowWhite
             // The rest of the characters leaves the party
             while(ActiveCharacters.Count > 0)
                 removeFirst();
+
+            Console.WriteLine("Amazing party!");
         }
 
         public bool Contains(ICharacter character)
