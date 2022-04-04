@@ -42,7 +42,7 @@ namespace SnowWhite
 
             void removeFirst()
             {
-                Console.WriteLine(ActiveCharacters[0] + " decides to leave the party.");
+                Console.WriteLine(ActiveCharacters[0] + " takes a piece of cake and decides to leave the party.");
                 ActiveCharacters.RemoveAt(0);
             }
 
